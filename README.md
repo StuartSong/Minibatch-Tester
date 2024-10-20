@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains MATLAB scripts that were used for the analysis of walking asymmetry and endpoint control in stroke survivors as described in the paper *Monitoring Walking Asymmetries and Endpoint Control in Persons Living with Chronic Stroke* by Song and Hardin (2024). The study focuses on assessing walking asymmetries and the compensatory control mechanisms used by persons with chronic stroke (PwCS) during walking. The scripts are designed to process motion capture data, compute metrics such as mediolateral displacement (MLD), and analyze the coupling between pelvic motion and foot placement.
+This repository contains MATLAB scripts that were developed for analyzing walking asymmetry and endpoint control in stroke survivors, as detailed in our paper *Monitoring Walking Asymmetries and Endpoint Control in Persons Living with Chronic Stroke* by Song and Hardin (2024). The scripts are designed to process motion capture data, calculate metrics such as mediolateral displacement (MLD), and analyze pelvic-foot coupling.
 
 ## MATLAB Scripts
 
@@ -49,10 +49,9 @@ The scripts require raw motion capture data collected at a sampling frequency of
    - For cross-correlation analysis, use `xCoMExtrapolationandxcorr.m` and `SubjectXcorrDataProcessor.m`.
    - Run `Spectrum.m` for spectral analysis if needed.
 
-## References
+## Citation
 
-- Song, J., & Hardin, E. C. (2024). *Monitoring Walking Asymmetries and Endpoint Control in Persons Living with Chronic Stroke: Implications for Remote Diagnosis and Telerehabilitation*. [Digital Health Journal].
+If you use these scripts or the methodologies described in our paper, please cite the following:
 
-## License
+> Song, J., & Hardin, E. C. (2024). *Monitoring Walking Asymmetries and Endpoint Control in Persons Living with Chronic Stroke: Implications for Remote Diagnosis and Telerehabilitation*. Digital Health Journal.
 
-This project is licensed under the Creative Commons Attribution-NonCommercial-NoDerivs 4.0 License.
